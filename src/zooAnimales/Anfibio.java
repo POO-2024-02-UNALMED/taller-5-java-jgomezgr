@@ -60,7 +60,7 @@ public class Anfibio extends Animal{
     public static ArrayList<Anfibio> getListado() {
         return (Anfibio.listado);
     }
-    public String getColorPiel(){
+    public String getCsolorPiel(){
         return(this.colorPiel);
     }
     public void setColorPiel(String colorPiel){
