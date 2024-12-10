@@ -24,6 +24,9 @@ public class Animal{
         this(nombre,edad,habitat,genero,null);
     }
     
+    public String movimiento(){
+        return("desplazarse");
+    }
 
     public static String totalPorTipo(){
         int mamifero = Mamifero.cantidadMamiferos();
