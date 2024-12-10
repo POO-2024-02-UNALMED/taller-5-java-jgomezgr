@@ -21,8 +21,9 @@ public class Zoologico{
         int ttl = 0;
         for (int i=0; i<zonas.size();i++){
             ttl += zonas.get(i).cantidadTotalAnimales();
+            return ttl;
         }
-        return ttl;
+        
     }
 
     public string GetNombre(){
